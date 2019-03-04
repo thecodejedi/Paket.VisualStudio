@@ -12,7 +12,7 @@ This is a fork from (https://github.com/fsprojects/Paket.VisualStudio) with the 
 
 Pease send pullrequests as you see fit!
 
-This package is not hosted on Visual Studio Gallery and needs to be downloaded manually.
+This package is not hosted on Visual Studio Gallery.)
 
 
 Features
@@ -32,6 +32,7 @@ Run the `build.cmd` script or `Paket.VisualStudio.sln` to build the solution.
 
 Installation
 ------------
+Some built Versions are located in the  [Artifacts Folder](https://github.com/thecodejedi/Paket.VisualStudio/tree/master/artifacts)
 
 You can also download the lastest (unreleased) installer from [AppVeyor](https://ci.appveyor.com/project/thecodejedi/paket-visualstudio/history):
 Choose the latest build and navigate to the "artifacts" tab.
