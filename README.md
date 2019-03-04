@@ -1,11 +1,19 @@
 Paket.VisualStudio
 ==================
 
-[![Join the chat at https://gitter.im/fsprojects/Paket.VisualStudio](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fsprojects/Paket.VisualStudio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Manage your Paket (http://fsprojects.github.io/Paket/) dependencies from Visual Studio!
 
 ![](https://raw.githubusercontent.com/fsprojects/Paket.VisualStudio/master/docs/files/img/paket.visualstudio.png)
+
+
+Fork Information
+--------
+This is a fork from (https://github.com/fsprojects/Paket.VisualStudio) with the goal of improving the original Package.
+
+Pease send pullrequests as you see fit!
+
+This package is not hosted on Visual Studio Gallery and needs to be downloaded manually.
+
 
 Features
 --------
@@ -13,9 +21,11 @@ Features
 * Solution Explorer Extensions for Paket files
 * Paket commands in Solution Explorer menu
 * IntelliSense in paket.dependencies and paket.references
+* Handeling of unloaded Projects
+* Handling big soultions
 
 
-### Build [![Build status](https://ci.appveyor.com/api/projects/status/do913wfhcmnit5ps/branch/master?svg=true)](https://ci.appveyor.com/project/SteffenForkmann/paket-visualstudio/branch/master)
+### Build [![Build status](https://ci.appveyor.com/api/projects/status/2totkcuhck9f3206?svg=true)](https://ci.appveyor.com/project/thecodejedi/paket-visualstudio)
 
 Require Visual Studio 2013 and Visual Studio 2013 SDK (or later). 
 Run the `build.cmd` script or `Paket.VisualStudio.sln` to build the solution.
@@ -23,9 +33,7 @@ Run the `build.cmd` script or `Paket.VisualStudio.sln` to build the solution.
 Installation
 ------------
 
-Paket.VisualStudio is available in the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/ce104917-e8b3-4365-9490-8432c6e75c36).
-
-You can also download the lastest (unreleased) installer from [AppVeyor](https://ci.appveyor.com/project/SteffenForkmann/paket-visualstudio/history):
+You can also download the lastest (unreleased) installer from [AppVeyor](https://ci.appveyor.com/project/thecodejedi/paket-visualstudio/history):
 Choose the latest build and navigate to the "artifacts" tab.
 
 ### Getting involved
@@ -37,5 +45,4 @@ The extension is available under MIT license. For more information see the [Lice
 
 ### Maintainer
 
-- [@hmemcpy](https://github.com/hmemcpy)
-- [@forki](https://github.com/forki)
+- [@thecodejedi](https://github.com/thecodejedi)
